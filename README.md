@@ -27,7 +27,7 @@ node server.js
 open http://localhost:3000
 ```
 ## Screenshots
-![App functionality with two users logged on](https://github.com/BryceWalter/chatter/docs/Screenshot_chatterly.png)
+![App functionality with two users logged on](https://github.com/BryceWalter/chatter/blob/master/docs/Screenshot_chatterly.png)
 ### Dependencies
 
 * babel-core
