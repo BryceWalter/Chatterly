@@ -16,7 +16,6 @@ class ChatBar extends Component {
 
   handleUserKeyPress = (e) => {
     if (e.key == 'Enter') {
-    debugger;
       let newUser = {currentUser: {name: this.state.username}}
       this.props.submitUserChange(newUser)
     }

@@ -4,11 +4,11 @@ class Message extends Component {
   render() {
     return (
       <div className="message">
-        <span className="message-username">{this.props.msg.username}</span>
-        <span className="message-content">{this.props.msg.message}</span>
-        <div className="message system">
-            Anonymous1 changed their name to nomnom.
-        </div>
+        <span className="message-username" style={{color: this.props.user.clientColour}}>{this.props.msg.username}</span>
+        <span className={this.props.msg.type === 'incomingNotification' ? "message system":"message-content"}>
+        {this.props.msg.message}
+        <img className="message-img"src={this.props.msg.img}/>
+        </span>
       </div>
     );
   }

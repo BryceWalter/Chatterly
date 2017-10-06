@@ -7,7 +7,7 @@ body {
 }
 
 .chatbar {
-  background: tomato;
+  background: #3D9970;
   border-top: 1px solid black;
   bottom: 0;
   display: flex;
@@ -53,7 +53,14 @@ body {
 }
 
 .message-content {
-  flex: 8;
+  max-height: 80%;
+  max-width: 80%;
+  flex: 8
+}
+
+.message-img {
+  max-height: inherit;
+  max-width: inherit;
 }
 
 .message-username {
@@ -62,7 +69,7 @@ body {
 }
 
 .navbar {
-  background: tomato;
+  background: #3D9970;
   border-bottom: 1px solid black;
   height: 60px;
   left: 0;
@@ -83,3 +90,17 @@ body {
   padding: 0 10px;
   text-decoration: none;
 }
+
+.user-counter {
+  color: inherit;
+  display: block;
+  float: right;
+  font-weight: 700;
+  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+
+}
+
