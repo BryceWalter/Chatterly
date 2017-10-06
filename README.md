@@ -27,7 +27,7 @@ node server.js
 open http://localhost:3000
 ```
 ## Screenshots
-![App functionality with two users logged on](https://github.com/BryceWalter/chatter/docs/Screen Shot 2017-10-06 at 4.26.55 PM.png)
+![App functionality with two users logged on] (https://github.com/BryceWalter/chatter/docs/Screen Shot 2017-10-06 at 4.26.55 PM.png)
 ### Dependencies
 
 * babel-core
